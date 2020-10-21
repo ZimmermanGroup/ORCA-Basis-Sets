@@ -7,3 +7,4 @@ There will be a series of files:
   2) Error if recieved from typical input
   3) 6-31G* basis set from BSE (https://www.basissetexchange.org/)
   4) Corrected basis set format that is ORCA compatible
+  5) Corrected input file
