@@ -1,0 +1,18 @@
+# Below will be the error recieved when trying to run the typical input file
+# This file was created on 10-21-2020 by Kevin Skinner
+
+----- Orbital basis set information -----
+Your calculation utilizes the basis: 6-31G*
+   H-He, Li-Ne : W. J. Hehre, R. Ditchfield and J.A. Pople, J. Chem. Phys. 56, 2257 (1972).
+                 Note: He and Ne are unpublished basis sets taken from the Gaussian program.
+                 Note: Li and B from J. D. Dill and J. A. Pople, J. Chem. Phys. 62, 2921 (1975).
+   Na - Ar     : M. M. Francl, W. J. Pietro, W. J. Hehre, J. S. Binkley, M. S. Gordon, 
+                 D. J. DeFrees and J. A. Pople, J. Chem. Phys. 77, 3654 (1982).
+   K - Zn      : V. A. Rassolov, J. A. Pople, M. A. Ratner, and T. L. Windus, J. Chem. Phys. 109, 1223 (1998).
+
+               *****************************************************************
+               ** There are no main   basis functions on atom number  11 (Br) **
+               *****************************************************************
+[file orca_main/maininp2.cpp, line 2348]:    The basis set was either not assigned or not available for this element - Aborting the run
+
+[file orca_main/maininp2.cpp, line 2348]:    The basis set was either not assigned or not available for this element - Aborting the run
