@@ -1,0 +1,25 @@
+# Below is a sample input for using a basis defined in an external file
+# Each element will need to have the basis set defined individually in the %basis block
+# This can be avoided by defining each basis in the external file
+# This file was created on 11-26-2020 (Happy Thanksgiving) by Kevin Skinner
+
+%scf
+MaxIter 150
+TolE 1e-6
+end
+
+! B3LYP
+
+%basis
+ GTOName "6-31G*_Br"
+ NewGTO H "6-31G*" end
+ NewGTO C "6-31G*" end 
+end
+
+*xyz 0 1
+  Br   -0.0000000    0.0000000   -0.3179628
+  C   -0.0000000    0.0000000    1.6154695
+  H    0.5229769   -0.9058226    1.9852678
+  H    0.5229769    0.9058226    1.9852678
+  H   -1.0459538    0.0000000    1.9852678
+*
